@@ -18,6 +18,7 @@ Some helpful utility snippets:
 - Turn off k<sup>th</sup> bit: `num &= ~(1 << k)`.
 - Toggle the k<sup>th</sup> bit: `num ^= (1 << k)`.
 - To check if a number is a power of 2, `(num & num - 1) == 0` or `(num & (-num)) == num`.
+- To count number of 1 bits` __builtin_popcount(n)`
 
 ## Corner cases
 
